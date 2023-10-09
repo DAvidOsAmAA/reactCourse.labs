@@ -1,0 +1,64 @@
+.artist{
+  top: 10%;
+  background-color: blueviolet;
+  background-image:url('../../images/9.jpg') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 50%;
+}
+.first{
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 20%;
+}
+.second{
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 17.5%;
+  top: 10%;
+}
+.third{
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 15%;
+}
+.fourth{
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 12.8%;
+  top: 10%;
+}
+.img1{
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  
+}
+.img2{
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+.img3{
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+.img4{
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+

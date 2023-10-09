@@ -1,0 +1,32 @@
+.home{
+  background-color: rgb(54, 13, 91);
+  overflow-x: hidden;
+  height: 500px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  
+}
+.Explore{
+  padding: 10px;
+  background-color: rgb(254, 244, 98);
+  position: relative;
+  left: 30%;
+
+}
+.title{
+  color: rgb(254, 244, 98);
+  
+}
+
+
+.homeImg{
+  width: 50%;
+  height: 300px;
+  position: relative;
+  left: 30%;
+  border-radius: 50%;
+  top: 10%;
+}
+p{
+  color: white;
+}

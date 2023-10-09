@@ -1,0 +1,28 @@
+
+.about-container{
+  background-color: rgb(54, 13, 91);
+  overflow-x: hidden;
+  height: 500px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  width: 100%;
+}
+.aboutTitle{
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 40%;
+  top: 10%;
+}
+.aboutParagraph{
+  color: rgb(254, 244, 98);
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+.about-btn{
+  padding: 10px;
+  background-color: rgb(254, 244, 98);
+  position: relative;
+  left: 48%;
+  top: 10%;
+}
