@@ -28,17 +28,17 @@ class Home extends Component{
   savedProducts: [],
 }
 sendDataToLocalStorage = (index) => {
-  const productToSave = this.state.product[index]; 
-  const savedProducts = [...this.state.savedProducts]; 
-  savedProducts.push(productToSave); 
-  this.setState({ savedProducts }); 
+  const productToSave = this.state.product[index]; // Retrieve the product
+  const savedProducts = [...this.state.savedProducts]; // Create a copy of savedProducts
+  savedProducts.push(productToSave); // Add the product to savedProducts
+  this.setState({ savedProducts }); // Update the state
   localStorage.setItem("savedProducts", JSON.stringify(savedProducts));
 };
 deleteProduct = (index) => {
-  const savedProducts = [...this.state.savedProducts]; 
-  savedProducts.splice(index, 1); 
-  this.setState({ savedProducts }); 
-  localStorage.setItem("savedProducts", JSON.stringify(savedProducts));
+  const savedProducts = [...this.state.savedProducts]; // Create a copy of savedProducts
+  savedProducts.splice(index, 1); // Remove the product at the specified index
+  this.setState({ savedProducts }); // Update the state
+  localStorage.setItem("savedProducts", JSON.stringify(savedProducts)); // Update local storage
 };
 
   render(){
